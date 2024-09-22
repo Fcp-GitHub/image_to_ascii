@@ -5,6 +5,7 @@
 Given an instruction and the file name, it will recreate a terminal-compatible representation of the given image. <br>
 The program uses ANSI escape sequences to print colored output, that is however limited only to the original 8 available colors. <br>
 Although the black-and-white functionality seems good, the colored outputs may seem a bit poor due to the really restricted supplied color palette. <br>
+At the top of the source file there are two macros (`TERM_WIDTH` and `TERM_HEIGHT`) that can be modified as needed in order to change the output size. <br>
 For more informations use `image_to_ascii -h`.
 
 ## A simple example
